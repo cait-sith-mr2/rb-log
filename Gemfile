@@ -22,7 +22,7 @@ gem 'rainbow'
 gem 'redis'
 gem 'redis-rails'
 
-
+gem 'administrate'
 
 group :development do
   gem 'brakeman'
