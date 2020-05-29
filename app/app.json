@@ -1,0 +1,21 @@
+{
+  "name": "Rblog Sandbox",
+  "description":"demo",
+  "repository": "",
+  "buildpacks": [
+    "heroku/metrics",
+    "heroku/ruby"
+  ],
+  "addons": [
+    "heroku-postgresql:hobby-dev",
+    "heroku-redis:hobby-dev",
+    "sendgrid:starter",
+    "cloudinary:starter"
+  ],
+  "env" : {
+    "MAIL_SENDER"               : "no-reply@example.com"
+  },
+  "scripts": {
+    "postdeploy": "bundle exec rake db:migrate"
+  }
+}
