@@ -1,11 +1,6 @@
 {
   "name": "Rblog Sandbox",
   "description":"demo",
-  "repository": "https://gitlab.com/cait.sith.mr2/blog-rails",
-  "buildpacks": [
-    "heroku/metrics",
-    "heroku/ruby"
-  ],
   "addons": [
     "heroku-postgresql:hobby-dev",
     "heroku-redis:hobby-dev",
