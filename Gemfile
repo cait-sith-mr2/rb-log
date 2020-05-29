@@ -20,7 +20,6 @@ gem 'seed-fu'
 gem 'rainbow'
 
 gem 'redis'
-gem 'redis-rails'
 
 gem 'administrate'
 
@@ -42,6 +41,7 @@ end
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'dotenv-rails'
   gem 'awesome_print', require: false
   gem 'bullet'
   gem 'database_cleaner'
