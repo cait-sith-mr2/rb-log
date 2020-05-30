@@ -5,10 +5,11 @@
     "heroku-postgresql:hobby-dev",
     "heroku-redis:hobby-dev",
     "sendgrid:starter",
-    "cloudinary:starter"
+    "cloudinary:starter",
+    "Bonsai Elasticsearch:sandbox"
   ],
   "env" : {
-    "MAIL_SENDER"               : "no-reply@example.com"
+    "MAIL_SENDER": "no-reply@example.com"
   },
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
