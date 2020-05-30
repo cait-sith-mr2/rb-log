@@ -23,6 +23,11 @@ gem 'redis'
 
 gem 'administrate'
 
+gem "barnes"
+
+gem "carrierwave"
+gem "cloudinary"
+
 group :development do
   gem 'brakeman'
   gem 'danger'
